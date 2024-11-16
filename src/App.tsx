@@ -11,9 +11,10 @@ function App() {
   return (
     <>
       <div className="">
-        <div className="px-48 pt-16 grid grid-cols-2 gap-16 bg-zinc-800 text-white">
-          <div className="grid grid-cols-2">
-            <div>
+        <div className="px-2 md:px-32 lg:px-32 xl:px-48 pt-16 lg:grid lg:grid-cols-2 gap-16 bg-zinc-800 text-white">
+          <div className="w-full">
+          <div className="lg:w-1/3 lg:fixed lg:justify-between lg:flex grid grid-cols-3 grid-flow-col">
+            <div className="col-span-2">
               <h1 className="text-xl">👋 Hello, I'm</h1>
               <h1 className="text-4xl font-bold"> Ken Inocencio</h1>
               <span className="flex">
@@ -41,13 +42,15 @@ function App() {
                 </p>
               </span>
             </div>
-            <div className="w-full">
+            <div className="grow">
               <img
-                className="w-28 h-28 ml-auto rounded-full bg-white object-cover object-top zoom"
+                className="w-28 h-28 col-span-1 ml-auto rounded-full bg-white object-cover object-top zoom"
                 src={profile}
               ></img>
             </div>
           </div>
+          </div>
+          
 
           <div>
 
