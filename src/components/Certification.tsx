@@ -9,7 +9,7 @@ type CertificationProps = {
 
 const Certification: React.FC<CertificationProps> = ({ title, organization, duration, credentialId }) => {
   return (
-    <div className="mb-8">
+    <div className="pb-8">
       <div className="flex">
         <h1 className="text-lg">{title}</h1>
         <p className="text-md ml-auto text-white/70">{duration}</p>

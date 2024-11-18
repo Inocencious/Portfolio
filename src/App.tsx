@@ -11,8 +11,8 @@ function App() {
 
   return (
     <>
-      <div className="">
-        <div className="px-2 md:px-32 lg:px-24 xl:px-48 pt-16 lg:grid lg:grid-cols-2 gap-16 bg-zinc-800 text-white">
+      <div className="bg-zinc-800">
+        <div className="px-2 md:px-32 lg:px-24 xl:px-48 pt-16 lg:grid lg:grid-cols-2 gap-16  text-white">
           <div className="w-full">
           <div className=" lg:sticky lg:top-16 lg:justify-between grid grid-cols-3 grid-flow-col">
             <div className="col-span-2">
@@ -144,7 +144,7 @@ function App() {
             </div>
 
             {/*Certifications */}
-            <div className="mb-16">
+            <div className="pb-16">
               <h1 className="text-lg mb-16 font-medium">📄 Certifications:</h1>
 
 
